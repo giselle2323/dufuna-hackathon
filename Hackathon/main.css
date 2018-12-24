@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header .container-fluid nav{
+    background-color: black;
+}
+
+h1{
+    color: #c9c1ac;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+strong{
+    color: blue;
+    font-family: cursive;
+}
+.banner{
+    padding: 10%;
+}
+.banner h1{
+    border-bottom: dotted #c9c1ac;
+    border-top: dotted #c9c1ac;
+    animation: fromleft;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.main-btn{
+color: blue;
+font-size: 16px;
+border: 2px solid whitesmoke;
+transition: all 1s ease-in-out;
+}
+.order-btn{
+    animation: fromright;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    
+}
+.main-btn:hover{
+color: blue;
+border: 2px solid #c9c1ac;
+background: #c9c1ac
+}
+
+
+ nav{
+    background-color: #c9c1ac;
+
+}
+.card{
+    margin: 5%;
+    height: 100%;
+    border-radius: 5px;
+    border: whitesmoke solid;
+}
+.card:hover{
+    
+    background-color: whitesmoke solid;
+    transition: all 1s ease-in-out;
+
+}
+
+.card img{
+    height: 50%;
+}
+h3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+section{
+    margin-top: 5%;
+}
+footer{
+    background-color: black;
+    margin-top: 10%;
+    padding-top: 2%;
+    width: 100%
+    }
